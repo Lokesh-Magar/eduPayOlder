@@ -4,9 +4,9 @@ import { Grid, Box, Card, Stack, Typography } from "@mui/material";
 // components
 import PageContainer from "@/app/(DashboardLayout)/components/container/PageContainer";
 import Logo from "@/app/(DashboardLayout)/layout/shared/logo/Logo";
-import AuthLogin from "../auth/AuthLogin";
+import AuthLogin from "@/app/authentication/auth/AuthLogin";
 
-const Login2 = () => {
+const Login = () => {
   return (
     <PageContainer title="Login" description="this is Login page">
       <Box
@@ -93,4 +93,4 @@ const Login2 = () => {
     </PageContainer>
   );
 };
-export default Login2;
+export default Login;

@@ -9,7 +9,7 @@ const IndexView=({params}:{params:{params:{children:React.ReactNode}}})=>{
             <a href="#" className="text-white text-2xl font-bold">EduFee</a>
             <div className="space-x-4">
                 <Link href="#home" className="text-white">Home</Link>
-                <Link href="#features" className="text-white">Features</Link>
+                <Link href="/login" className="text-white">Login</Link>
                 <Link href="#pricing" className="text-white">Pricing</Link>
                 <Link href="#contact" className="text-white">Contact</Link>
             </div>
